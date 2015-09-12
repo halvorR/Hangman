@@ -15,9 +15,22 @@ public class StartMenu extends AppCompatActivity {
         setContentView(R.layout.startskjerm);
     }
 
-    public void startSpill(View view) {
+    public void startSpill(View v) {
         Intent i = new Intent(this, Hangman.class);
         startActivity(i);
+    }
+
+    public void regler(View v) {
+        Intent i = new Intent(this, Regler.class);
+        startActivity(i);
+    }
+
+    public void endreSprak(View view) {
+        System.out.println("Kaller språkvelger på telefonen");
+    }
+
+    public void avslutt(View view) {
+        super.finish();
     }
 
     @Override
