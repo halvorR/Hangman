@@ -5,5 +5,5 @@
         android:id="@+id/instillinger"
         android:title="@string/instillinger"
         android:orderInCategory="100"
-        app:showAsAction="always" />
+        app:showAsAction="never" />
 </menu>
