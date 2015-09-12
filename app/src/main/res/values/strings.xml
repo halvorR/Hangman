@@ -1,6 +1,17 @@
 <resources>
-    <string name="app_name">Hangman</string>
+    <string name="app_name">Hangman, av Roger og Halvor</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <!-- Informasjon om hva man har mulighet til på startskjemen -->
+    <string name="info">Gjør hva du vil, vi driter i det, fitte</string>
+
+    <!-- For å komme til innstillinger (Veit ikkje om nødvendig) -->
+    <string name="instillinger">Innstillinger</string>
+    
+    <!-- Knapper StartMenu -->
+    <string name="startSpill">Start spill</string>
+    <string name="regler">Se regler</string>
+    <string name="endreSprak">Endre språk</string>
+    <string name="avslutt">Avslutt</string>
+
+
 </resources>

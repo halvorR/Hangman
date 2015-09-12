@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Array for ord som skal gjettes -->
+    <array name="ord">
+        <item>Anvendt</item>
+        <item>Datateknologi</item>
+        <item>Apputvikling</item>
+        <item>Mississippi</item>
+        <item>Kuk</item>
+        <item>Hore</item>
+        <item>Fitte</item>
+        <item>Ludder</item>
+        <item>Knullefar</item>
+        <item>Lompemor</item>
+        <item>Pølsebarn</item>
+    </array>
+</resources>
