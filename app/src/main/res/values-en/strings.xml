@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Hangman, by Roger and Halvor</string>
+    <string name="hangman_overskrift">Hangman</string>
+    <string name="regel_overskrift">Da rules</string>
     <string name="avslutt">Exit</string>
     <string name="endreSprak">Change language</string>
     <string name="hovedmal">Prevent Hank von Hengvete being hanged by guessing the word below!</string>
@@ -11,4 +13,6 @@
     <string name="regel3">3. Hope that you do not hang the man :)</string>
     <string name="regler">See the rules</string>
     <string name="startSpill">Start the game!</string>
+    <string name="ja">Yes, before me away!</string>
+    <string name="nei">No, I want to be tortured!</string>
 </resources>

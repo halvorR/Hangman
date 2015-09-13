@@ -16,8 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Hangman"/>
-        <activity android:name=".Regler"/>
+        <activity
+            android:name=".Hangman"
+            android:label="@string/hangman_overskrift" />
+        <activity
+            android:name=".Regler"
+            android:label="@string/regel_overskrift"/>
     </application>
 
 </manifest>

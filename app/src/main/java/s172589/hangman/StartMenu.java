@@ -1,12 +1,13 @@
 package s172589.hangman;
 
+import android.app.DialogFragment;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 
-public class StartMenu extends AppCompatActivity {
+public class StartMenu extends AppCompatActivity implements AvsluttApp.DialogClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,35 +28,35 @@ public class StartMenu extends AppCompatActivity {
 
     public void endreSprak(View view) {
         System.out.println("Kaller språkvelger på telefonen");
+        Intent i = new Intent(Intent.ACTION_MAIN);
+        i.setClassName("com.android.settings","com.android.settings.LanguageSettings");
+        startActivity(i);
     }
 
-    public void avslutt(View view) {
-        super.finish();
+    public boolean avslutt(View view) {
+        DialogFragment d = new AvsluttApp();
+        d.show(getFragmentManager(), "Avslutt");
+        return true;
+    }
+
+//  Håndtere klikk fra bruker på om han vil avslutte eller fortsette.
+    @Override
+    public void jaKlikk() {
+        finish();
+    }
+    @Override
+    public void neiKlikk() {
+        return;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        Intent i;
-        switch (id) {
-            case R.id.startSpill:
-                i = new Intent(this, Hangman.class);
-                startActivity(i);
-                return true;
-            case R.id.regler:
-                i = new Intent(this, Regler.class);
-                startActivity(i);
-                return true;
-            case R.id.endreSprak:
-                System.out.println("Kalle språkvelger på telefon");
-                return true;
-            case R.id.avslutt:
-                super.finish();
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-
+        if(id == R.id.instillinger) {
+            return true;
         }
+
+        return super.onOptionsItemSelected(item);
 
     }
 }
