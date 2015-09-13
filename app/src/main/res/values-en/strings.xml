@@ -15,4 +15,9 @@
     <string name="startSpill">Start the game!</string>
     <string name="ja">Yes, before me away!</string>
     <string name="nei">No, I want to be tortured!</string>
+    <string name="galge">Gallow</string>
+    <string name="hode">Head</string>
+    <string name="kropp">Body</string>
+    <string name="arm">Arm</string>
+    <string name="bein">Leg</string>
 </resources>

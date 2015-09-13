@@ -25,4 +25,11 @@
     <string name="ja">Ja, før meg vekk!</string>
     <string name="nei">Nei, jeg vil tortureres!</string>
 
+    <!-- Tekst Hangman.java -->
+    <string name="galge">Galge</string>
+    <string name="hode">Hode</string>
+    <string name="kropp">Kropp</string>
+    <string name="arm">Arm</string>
+    <string name="bein">Bein</string>
+
 </resources>
