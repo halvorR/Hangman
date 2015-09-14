@@ -15,27 +15,27 @@
          />
     <Button
         android:id="@+id/startSpill"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/startSpill"
         android:onClick="startSpill"
          />
     <Button
         android:id="@+id/regler"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/regler"
         android:onClick="regler"
         />
     <Button
         android:id="@+id/endreSprak"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/endreSprak"
         android:onClick="endreSprak" />
     <Button
         android:id="@+id/avslutt"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/avslutt"
         android:onClick="avslutt"
