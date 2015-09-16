@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Array for ord som skal gjettes når engelsk er valgt-->
+    <array name="ord">
+        <item>Applied</item>
+        <item>Technology</item>
+        <item>Appdevelopement</item>
+        <item>Mississippi</item>
+        <item>Cock</item>
+        <item>Cunt</item>
+        <item>Pussy</item>
+        <item>Slut</item>
+        <item>Fuckfather</item>
+        <item>Motherfucker</item>
+        <item>Sausagechildren</item>
+    </array>
+</resources>
