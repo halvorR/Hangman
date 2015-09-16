@@ -4,7 +4,7 @@
     <string name="regel_overskrift">Regler</string>
 
     <!-- Informasjon om hva man har mulighet til på startskjemen -->
-    <string name="info">Gjør hva du vil, vi driter i det, fitte</string>
+    <string name="info">Gjør hva du vil, \r\n vi driter i det, fitte</string>
 
     <!-- For å komme til innstillinger (Veit ikkje om nødvendig) -->
     <string name="instillinger">Innstillinger</string>
@@ -31,5 +31,17 @@
     <string name="kropp">Kropp</string>
     <string name="arm">Arm</string>
     <string name="bein">Bein</string>
+
+    <!-- Tekst til dialogbokser ved vinn eller tap -->
+    <string name="tapTittel">Du tapte!</string>
+    <string name="tapMelding1">
+        Eiei! Du klarte ikke gjette ordet! \r\n
+        Ordet du ikke klarte var
+    </string>
+    <string name="tapMelding2">\r\nVil du prøve et nytt ord?</string>
+    <string name="tapNyttSpill">Prøv igjen!</string>
+    <string name="tapTilHovedmeny">Til hovedmenyen</string>
+
+    <string name=""></string>
 
 </resources>

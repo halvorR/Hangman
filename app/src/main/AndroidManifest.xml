@@ -18,10 +18,12 @@
         </activity>
         <activity
             android:name=".Hangman"
-            android:label="@string/hangman_overskrift" />
+            android:label="@string/hangman_overskrift"
+            android:parentActivityName=".StartMenu"/>
         <activity
             android:name=".Regler"
-            android:label="@string/regel_overskrift"/>
+            android:label="@string/regel_overskrift"
+            android:parentActivityName=".StartMenu"/>
     </application>
 
 </manifest>
