@@ -3,4 +3,4 @@
     android:layout_width="wrap_content"
     android:layout_height="20dp"
     android:background="@drawable/gjett_bokstav_bg_ikketrykka"
-    android:onClick="bokstavTrykket" />
+    android:onClick="knappTrykket" />

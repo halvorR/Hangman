@@ -18,7 +18,7 @@
     <!-- Tekst Regler.java -->
     <string name="hovedmal">Unngå at Hank von Hengvete blir hengt ved å gjette ordet under!</string>
     <string name="regel1">1. Gjett ordet ved å trykke på bokstavene under.</string>
-    <string name="regel2">2. Du har 5 forsøk på å gjette ordet!</string>
+    <string name="regel2">2. Du har 6 forsøk på å gjette ordet!</string>
     <string name="regel3">3. Håp på at du ikke henger mannen :)</string>
 
     <!-- Tekst Avslutt-fragment -->
