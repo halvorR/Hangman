@@ -60,4 +60,21 @@
         android:contentDescription="@string/bein"
         android:layout_marginTop="190dp"
         android:layout_marginLeft="218dp"/>
+    <LinearLayout
+        android:id="@+id/gjetteFelt"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:layout_below="@id/galge" />
+    <GridView
+        android:id="@+id/bokstavFelt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:numColumns="6"
+        android:stretchMode="columnWidth"
+        android:layout_below="@id/gjetteFelt"
+        />
 </RelativeLayout>
