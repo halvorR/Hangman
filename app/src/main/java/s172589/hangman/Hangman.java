@@ -118,7 +118,6 @@ public class Hangman extends AppCompatActivity {
         } else if(gjeldendeKroppsdel < antallKroppsdeler) {
             kroppsdeler[gjeldendeKroppsdel].setVisibility(v.VISIBLE);
             gjeldendeKroppsdel++;
-            System.out.println(gjeldendeKroppsdel + " | " + antallKroppsdeler);
         }
         if(gjeldendeKroppsdel == antallKroppsdeler){
             slåAvKnapper();
@@ -126,9 +125,9 @@ public class Hangman extends AppCompatActivity {
             // Dialogboks for å gi brukeren svaret, og valget på hva de vil gjøre videre
             System.out.println("Brukeren har tapt");
 
-            AlertDialog.Builder valgVedTap = new AlertDialog.Builder(this);
+            AlertDialog.Builder valgVedTap = new AlertDialog.Builder(Hangman.this);
             valgVedTap.setTitle(R.string.tapTittel);
-            valgVedTap.setMessage(R.string.tapMelding1 + gjeldendeOrd + R.string.tapMelding2);
+            valgVedTap.setMessage(getResources().getString(R.string.tapMelding1) + "\n\n" + gjeldendeOrd + "\n\n" + getResources().getString(R.string.tapMelding2));
             valgVedTap.setPositiveButton(R.string.tapNyttSpill,
                     new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int id) {
@@ -139,7 +138,7 @@ public class Hangman extends AppCompatActivity {
             valgVedTap.setNegativeButton(R.string.tapTilHovedmeny,
                     new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int id) {
-                           Hangman.this.tilStartside();
+                           Hangman.this.finish();
 
                         }
                     });
@@ -151,7 +150,7 @@ public class Hangman extends AppCompatActivity {
         if(antallRiktigGjettet == antallBokstaver){
             slåAvKnapper();
 
-
+            spill();
             System.out.println("Spillet er ferdig, bruker har vunnet");
         }
     }
@@ -161,11 +160,6 @@ public class Hangman extends AppCompatActivity {
         for(int i = 0; i < antall; i++){
             bokstaver.getChildAt(i).setEnabled(false);
         }
-    }
-
-    public void tilStartside(){
-        Intent i = new Intent(this, StartMenu.class);
-        startActivity(i);
     }
 
     @Override

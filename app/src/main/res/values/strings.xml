@@ -35,13 +35,12 @@
     <!-- Tekst til dialogbokser ved vinn eller tap -->
     <string name="tapTittel">Du tapte!</string>
     <string name="tapMelding1">
-        Eiei! Du klarte ikke gjette ordet! \r\n
+        Eiei! Du klarte ikke gjette ordet!
         Ordet du ikke klarte var
     </string>
-    <string name="tapMelding2">\r\nVil du prøve et nytt ord?</string>
+    <string name="tapMelding2">Vil du prøve et nytt ord?</string>
     <string name="tapNyttSpill">Prøv igjen!</string>
     <string name="tapTilHovedmeny">Til hovedmenyen</string>
 
-    <string name=""></string>
 
 </resources>
